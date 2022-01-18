@@ -1,0 +1,34 @@
+{
+  "compilerOptions": {
+      "target": "es5",                                    
+      "lib": ["ESNext","DOM","DOM.Iterable"],                                          
+     "jsx": "react",                                
+    
+    "module": "commonjs",                               
+    
+    "moduleResolution": "node",                       
+    "baseUrl": "./",                                  
+    
+    
+    
+    "paths": {
+      "components/*": ["src/components/*"],   
+      "include":["./src"]
+    },     
+   
+    "resolveJsonModule": true,                        
+    
+    "allowJs": true,                                 
+     "sourceMap": true,                                   
+    "outDir": "./build",                                   
+    "removeComments": true,                           
+    "downlevelIteration": true,                       
+    "allowSyntheticDefaultImports": true,             
+    "esModuleInterop": true,                         
+    "forceConsistentCasingInFileNames": true,            
+
+    "strict": true,                                      
+    "noImplicitAny": true,                               
+    "skipLibCheck": true                                 
+  }
+}
